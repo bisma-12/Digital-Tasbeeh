@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/tb1"
+
+        android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt_view"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/round_shape"
+                android:layout_marginTop="30dp"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:fontFamily="cursive"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="100sp"
+
+
+                />
+
+                <Button
+                    android:id="@+id/count_btn"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:text="count"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="50sp"
+                    android:textStyle="italic"
+                    android:fontFamily="cursive"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_btn"
+
+
+
+
+                    />
+
+
+
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:layout_gravity="center">
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:text="Reset"
+        android:background="@drawable/shape_btn"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+
+        />
+
+    <Button
+        android:id="@+id/minus_btn"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:text="Minus"
+        android:background="@drawable/shape_btn"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+
+        />
+</LinearLayout>
+    </LinearLayout>
+
+
+
+
